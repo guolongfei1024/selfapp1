@@ -1,7 +1,7 @@
 {
-  "name": "Zen Chat",
-  "short_name": "Zen",
-  "description": "A minimalist AI chat experience.",
+  "name": "狗蛋的私密日记",
+  "short_name": "狗蛋日记",
+  "description": "你的私人 AI 日记助手。",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f9fafb",

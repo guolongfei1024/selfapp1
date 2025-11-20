@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <circle cx="256" cy="256" r="256" fill="#111827"/>
-  <path d="M256 120L290 222L392 256L290 290L256 392L222 290L120 256L222 222z" fill="white"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#374151;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="256" fill="url(#grad)"/>
+  <text x="50%" y="42%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="85" fill="white" letter-spacing="4">狗蛋的</text>
+  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="85" fill="white" letter-spacing="2">私密日记</text>
 </svg>
