@@ -1,0 +1,16 @@
+{
+  "name": "Zen Chat",
+  "short_name": "Zen",
+  "description": "A minimalist AI chat experience.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#f9fafb",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

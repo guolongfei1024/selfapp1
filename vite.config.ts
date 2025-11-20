@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => {
   
   return {
     plugins: [react()],
+    base: './', // Use relative paths for assets
     define: {
       // This allows using process.env.API_KEY in the client-side code
       'process.env.API_KEY': JSON.stringify(env.API_KEY)
